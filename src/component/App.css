@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    background-image: radial-gradient(circle at 0% 0%, #ff52ac 0, #ff4f9a 6.25%, #ff5087 12.5%, #ff5475 18.75%, #ff5a64 25%, #ff6153 31.25%, #ff6a42 37.5%, #fd7231 43.75%, #f37b1f 50%, #e78303 56.25%, #da8b00 62.5%, #cc9200 68.75%, #bc9900 75%, #ac9f00 81.25%, #9ba400 87.5%, #88a800 93.75%, #74ac00 100%);
+}
+.container{
+    margin-top: 30px;
+    margin-left: 35%;
+    
+}
+p {
+    color: white;
+}
+.box{
+    width: 40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #007AFD;
+    border: solid rgb(254, 254, 254) 1px;
+}
+:hover.box{
+    background-color: #013c7c;
+}
+.active{
+    background-color: #013c7c;
+}
+.boxtwo{
+    background-color:#013c7c;
+    width: 40%;
+    border: solid rgb(254, 254, 254) 2px;
+    height: 120px;
+    
+}
